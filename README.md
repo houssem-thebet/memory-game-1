@@ -1,53 +1,38 @@
-<<<<<<< HEAD
-# memory-game-1
-=======
-﻿# 🧩 Memory Challenge - Java Web Game
+﻿# MemoryGame
+# 🧠 Memory Game - Java Web Application
 
-![Java](https://img.shields.io/badge/Java-17+-orange)
-![Servlet](https://img.shields.io/badge/Jakarta_Servlet-5.0-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Java](https://img.shields.io/badge/Java-17+-orange)](https://java.com)
+[![Servlet](https://img.shields.io/badge/Jakarta_Servlet-5.0-blue)](https://jakarta.ee/specifications/servlet/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 <div align="center">
-  <img src="https://i.imgur.com/JQh6WYl.png" width="400" alt="Game Preview">
+  <img src="https://i.imgur.com/JQh6WYl.png" width="400" alt="Game Screenshot">
 </div>
 
-## 🧠 Overview
+## 🌟 Features / Fonctionnalités
+- **Dynamic card grid** (Grille de cartes dynamique)
+- **Flip animations** (Animations de retournement)
+- **Session-based game state** (État sauvegardé en session)
+- **Responsive design** (Adapté mobile/desktop)
 
-Memory Challenge is a simple Java-based web application that puts your concentration and memory to the test! Flip cards, remember their positions, and try to match all the pairs.
+## 🛠 Technologies / Technologies
+| Component       | Technologie          |
+|----------------|---------------------|
+| Backend        | Java Servlets       |
+| Frontend       | JSP + CSS3 Animations |
+| State Management | HTTP Sessions      |
+| Build Tool     | Maven               |
 
----
+## 🚀 Setup / Installation
+1. **Requirements**:
+   - Java 17+
+   - Apache Tomcat 10+
+   - Maven 3.8+
 
-## ✨ Key Features
-- Interactive and responsive card grid
-- Smooth flip animations
-- Game state stored using server-side sessions
-- Works on desktop and mobile browsers
-
----
-
-## 🛠 Tech Stack
-
-| Layer          | Technology Used       |
-|----------------|-----------------------|
-| Backend        | Java (Servlets API)   |
-| Frontend       | JSP + HTML5/CSS3      |
-| State Handling | HTTP Sessions         |
-| Build System   | Maven                 |
-
----
-
-## 📦 Installation Guide
-
-### 🔧 Prerequisites
-- Java Development Kit (JDK) 17+
-- Apache Tomcat Server 10+
-- Maven 3.8+
-
-### ▶️ Run the Project
-Clone the repository and run the app locally using Maven:
+2. **Run locally**:
 ```bash
 mvn tomcat7:run
-MemoryGame/
+JetxDeMemoireJEE/
 ├── src/
 │   └── main/
 │       ├── java/
@@ -73,4 +58,3 @@ MemoryGame/
 │           │   └── end.jsp
 │           └── index.jsp
 └── pom.xml
->>>>>>> cf189af (Add my file)

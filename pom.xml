@@ -2,16 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-         
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yourname.memorychallenge</groupId>
-    <artifactId>MemoryChallenge</artifactId>
-    <version>1.0</version>
+    <groupId>com.memorygame</groupId>
+    <artifactId>MemoryGame</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
-    <name>Memory Challenge - Java Web Game</name>
-    <description>Educational version of a memory matching game built with Java Servlets and JSP</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -40,7 +36,7 @@
     </dependencies>
 
     <build>
-        <finalName>MemoryChallenge</finalName>
+        <finalName>MemoryGame</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -58,4 +54,4 @@
             </plugin>
         </plugins>
     </build>
-</project>
+</project> 
